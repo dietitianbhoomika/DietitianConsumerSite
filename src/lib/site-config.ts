@@ -17,6 +17,7 @@ export const siteUrl = (() => {
 })();
 
 export const siteApproved = process.env.NEXT_PUBLIC_SITE_APPROVED === "true";
+export const siteBasePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const defaultConsultationFormUrl =
   "https://docs.google.com/forms/d/e/1FAIpQLSezKqrMmppn_qQbgvGYlqQ4yXRE6fHebrP5Mm_VeSlEyinu6g/viewform";

@@ -23,11 +23,9 @@ export default function AboutPage() {
           <p className="eyebrow">Clinical nutrition, with context</p>
           <h2>Meet {practiceName}.</h2>
           <p>
-            Bhoomika holds a BSc and MSc in Clinical Nutrition and Dietetics and
-            identifies as a Registered Dietitian (RD) with the Indian Dietetic
-            Association (IDA). She also practices at a multispecialty hospital in
-            Bengaluru and offers online, individualized diet plans for varied medical
-            nutrition needs through Google Meet.
+            Bhoomika holds a BSc and MSc in Clinical Nutrition. She also practices at
+            a multispecialty hospital in Bengaluru and offers online, individualized
+            diet plans for varied medical nutrition needs through Google Meet.
           </p>
           <p>
             The approach is systematic and collaborative, with attention to food
@@ -37,7 +35,7 @@ export default function AboutPage() {
           <dl className="detail-list">
             <div className="detail-list__row">
               <dt>Qualifications</dt>
-              <dd>BSc and MSc in Clinical Nutrition and Dietetics; RD, Indian Dietetic Association.</dd>
+              <dd>BSc and MSc in Clinical Nutrition.</dd>
             </div>
             <div className="detail-list__row">
               <dt>Consultations</dt>

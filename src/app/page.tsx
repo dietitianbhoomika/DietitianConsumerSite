@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { resourceSummaries } from "@/lib/content";
-import { practiceName } from "@/lib/site-config";
+import { practiceName, siteBasePath } from "@/lib/site-config";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <section className="hero" aria-labelledby="hero-title">
         <Image
           className="hero__image"
-          src="/dietitian-table.jpg"
+          src={`${siteBasePath}/dietitian-table.jpg`}
           alt="A colorful spread of fresh foods arranged across a table."
           fill
           priority

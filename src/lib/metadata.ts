@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { practiceName, siteUrl } from "@/lib/site-config";
 
 export function createPageMetadata(title: string, description: string, path: string): Metadata {
-  const canonical = new URL(path, siteUrl);
+  const canonical = new URL(path.replace(/^\/+/, ""), `${siteUrl}/`);
 
   return {
     title,
@@ -14,7 +14,7 @@ export function createPageMetadata(title: string, description: string, path: str
       title,
       description,
       url: canonical,
-      images: ["/dietitian-table.jpg"],
+      images: [`${siteUrl}/dietitian-table.jpg`],
     },
   };
 }

@@ -18,7 +18,7 @@ import type { Metadata } from "next";
         default: `${practiceName} | Nutrition care with context`,
         template: `%s | ${practiceName}`,
       },
-      alternates: { canonical: "/" },
+      alternates: { canonical: `${siteUrl}/` },
       description:
         "Thoughtful nutrition support that begins with your questions, priorities and everyday life.",
       robots: {
@@ -31,8 +31,8 @@ import type { Metadata } from "next";
         title: `${practiceName} | Nutrition care with context`,
         description:
           "Thoughtful nutrition support that begins with your questions, priorities and everyday life.",
-        url: "/",
-        images: ["/dietitian-table.jpg"],
+        url: `${siteUrl}/`,
+        images: [`${siteUrl}/dietitian-table.jpg`],
       },
     };
 
