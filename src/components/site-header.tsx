@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { MobileNavigation } from "@/components/mobile-navigation";
-import { practiceName, siteApproved } from "@/lib/site-config";
+import { practiceName } from "@/lib/site-config";
 
 const navigation = [
   { href: "/about", label: "About" },
@@ -23,12 +23,6 @@ function Wordmark() {
 
 export function SiteHeader() {
   return (
-    <>
-      {!siteApproved && (
-        <div className="preview-banner" role="note">
-          Draft preview · Practice facts and booking or contact providers must be confirmed before publication.
-        </div>
-      )}
       <header className="site-header">
         <div className="site-header__inner">
           <Wordmark />
@@ -45,6 +39,5 @@ export function SiteHeader() {
           </Link>
         </div>
       </header>
-    </>
   );
 }
