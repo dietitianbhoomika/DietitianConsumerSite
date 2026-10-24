@@ -15,7 +15,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Working together"
         title="Nutrition support, built around your needs."
-        summary="Online initial and follow-up consultations for clients in India aged 8 and above."
+        summary="Online initial and follow-up consultations for clients aged 8 and above."
       />
       <section className="page-body">
         <div className="page-width content-narrow">
@@ -30,7 +30,7 @@ export default function ServicesPage() {
           <dl className="detail-list">
             <div className="detail-list__row">
               <dt>Format and duration</dt>
-              <dd>Google Meet, 30-60 minutes; available to clients in India aged 8 and above.</dd>
+              <dd>Google Meet, 30-60 minutes; available to clients aged 8 and above.</dd>
             </div>
             <div className="detail-list__row">
               <dt>Fee</dt>

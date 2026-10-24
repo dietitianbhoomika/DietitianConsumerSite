@@ -21,7 +21,7 @@ export default function Home() {
           <h1 id="hero-title">Nutrition care,<br />with {practiceName}.</h1>
           <p className="hero__summary">
             Online nutrition consultations and personalized diet plans for clients
-            aged 8 and above across India.
+            aged 8 and above across Globe.
           </p>
           <div className="hero__actions">
             <Link className="button button--light" href="/book">

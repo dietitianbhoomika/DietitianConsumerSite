@@ -6,7 +6,7 @@ import { practiceName } from "@/lib/site-config";
 
 export const metadata: Metadata = createPageMetadata(
   "About",
-  "Meet Bhoomika G A, Clinical Nutritionist and Dietician offering online consultations across India.",
+  "Meet Bhoomika G A, Clinical Nutritionist and Dietician offering online consultations across Globe.",
   "/about",
 );
 
@@ -39,7 +39,7 @@ export default function AboutPage() {
             </div>
             <div className="detail-list__row">
               <dt>Consultations</dt>
-              <dd>Online through Google Meet for clients in India aged 8 and above.</dd>
+              <dd>Online through Google Meet for clients aged 8 and above.</dd>
             </div>
             <div className="detail-list__row">
               <dt>Practice location</dt>
@@ -47,7 +47,7 @@ export default function AboutPage() {
             </div>
             <div className="detail-list__row">
               <dt>Scope</dt>
-              <dd>Personalized nutrition and diet planning. Weight-loss-specific diet plans are not offered.</dd>
+              <dd>Personalized nutrition and diet planning. Weight-loss-specific diet plans are also offered.</dd>
             </div>
           </dl>
           <div className="page-actions">

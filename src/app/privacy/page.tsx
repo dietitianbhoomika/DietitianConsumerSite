@@ -56,7 +56,6 @@ export default function PrivacyPage() {
             This site is not monitored for urgent needs; contact local emergency services
             or an appropriate urgent-care service.
           </p>
-          <p>This draft applies to the intended practice in India and requires review against applicable Indian privacy rules. The legal business identity, data-request process and effective date remain to be confirmed.</p>
         </div>
       </section>
     </>

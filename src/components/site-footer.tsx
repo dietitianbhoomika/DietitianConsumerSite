@@ -36,7 +36,7 @@ export function SiteFooter() {
         </div>
         <div className="site-footer__contact">
           <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
-          <span>Online consultations across India</span>
+          <span>Online consultations across Globe</span>
           <span>{practiceHours}; working days and time zone to be confirmed</span>
         </div>
         <div className="site-footer__bottom">

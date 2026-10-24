@@ -32,7 +32,7 @@ export default function TermsPage() {
           </p>
           <h2>Appointments and practice policies</h2>
           <p>
-            Online diet plan consultations are for clients in India aged 8 and above.
+            Online diet plan consultations are for clients aged 8 and above.
             Sessions last 30-60 minutes and start at ₹999, including applicable taxes.
             UPI and card payments are accepted. Insurance, lab tests and food purchases
             are not included. A consultation is not confirmed until the practice sends
@@ -46,7 +46,6 @@ export default function TermsPage() {
             The practice should confirm this wording and any rescheduling or no-show rules
             before accepting payment.
           </p>
-          <p>This is a draft for India-based services, not legal advice. Governing-law details and review by a qualified local professional remain outstanding.</p>
         </div>
       </section>
     </>
